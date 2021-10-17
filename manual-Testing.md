@@ -1,0 +1,178 @@
+- - Course name : Manual Software testing by SDET Automation Techie
+- - Resource - [https://youtube.com/playlist?list=PLUDwpEzHYYLseflPNg0bUKfLmAbO2JnE9]
+
+- - How this course is structured 
+    - - 1. Module 1 
+        - - Testing cocepts(Theory) What?
+    - - 2. Module 2 
+        - - Testing Project(Practical) How?
+    - - 3. Agile Process(Jira - Tool)
+        - - Previously companies used 
+            - - 1. Waterfall model
+            - - 2. Spiral Model
+        - - Jira is an agile tool 
+            - - We can track to SDLC
+                - - From inception to customer delivery 
+            - - Prior to this people have been using excel sheets and word docs
+
+- - # Vid 1 
+    - - `Curriculum topics covered in this vid`
+        - - 1. What is Software? What are the types of software? (8:30)
+            - - A Software is a collection of computer programs that help us to 
+                - - perform a task 
+            - - Types of software
+                - - 1. System Software
+                    - - Device Drivers
+                        - - Keyboard
+                        - - Mouse 
+                        - - Webcam
+                        - - Printer
+                        - - `Note`
+                            - - The drivers help your computer identify how to 
+                                - - use these devices  
+                    - - Operating Systems
+                        - - Windows 
+                        - - Linux
+                        - - Mac  
+                    - - Servers
+                        - - a piece of computer hardware or software (computer program) that provides functionality for other programs or devices, called "clients".
+                    - - Utilities
+                        - - Antivirus
+                        - - File Management Systems
+                        - - Disk Management Tools
+                        - - Compression Tools
+                        - - Disk Cleanup Tools
+                        - - File Management System
+                        - - Disk Defragmenter
+                        - - Backup Utility 
+                - - 2. Programming Software
+                    - - Compilers
+                        - - a compiler is a computer program that translates computer code written in one programming language (the source language) into another language 
+                    - - Debuggers
+                        - - A debugger is a program that allows you to step through another program one line at a time. This is very useful when trying to identify incorrect code
+                    - - Interpreters
+                        - - An interpreter translates code into machine code, instruction by instruction - the CPU executes each instruction before the interpreter moves on to translate the next instruction. Interpreted code will show an error as soon as it hits a problem, so it is easier to debug than compiled code.
+                - - 3. Application Software
+                    - - Web Applications
+                    - - Mobile Apps
+                    - - Desktop Applications
+                    - - `Note`
+                        - - Users will have direct interaction with this kind 
+                            - - of software. 
+                        - - Additional applications under Application software
+                            - - Smart device Applications
+                                - - Smart watch 
+                                - - Smart vehicles
+                                - - Smart fridge 
+
+        - - 2. What is Software Testing? (17:30)
+            - - In order to release a high quality product (software) to client
+                - - testing must be done to ensure the product has little to no 
+                    - - defects (bugs)
+                - - Defects in a software can cause an unexpected behavior of 
+                    - - the software. This unexpected behavior can lead to 
+                        - - 1. A loss in revenue
+                        - - 2. A loss in clientele 
+                        - - 3. Damaged client reputation 
+                        - - 4. A loss of competitive edge in the market
+            - - Software Testing also forms part of the 
+                - - Software Development Life Cycle or SDLC
+                    - - 1. Get Software requirements from client
+                    - - 2. Design the software based on requirements
+                    - - 3. Development based of design and requirements 
+                    - - 4. Testing the iterations of development 
+                    - - 5. Deploy the software to the market 
+                    - - 6. Review software based on live market behavior
+                    - - 7. Ongoing maintenance 
+                    - - 8. Adding new features in the future 
+                        - - Repeat steps 1-7. 
+            - - Further notes 
+                - - Software testing is part of the development process. 
+                    - - It is an activity to detect and identify the
+                        - - defects in the software.
+                    - - The objecttive of testing is to release a high quality 
+                        - - product to the client. 
+
+        - - 3. What is Software Quality? (26:05)
+            - - To define quality in the digital arena we can define it 
+                - - based to the metric of how well our piece of software is 
+                    - - working. 
+            - - Some metrics to evaluate quality are:
+                - - 1. The Software is defect/bug-free
+                - - 2. The software is delivered on time
+                - - 3. The product is within the specified budget of client
+                - - 4. It meets the requirement and/or expectation 
+                - - 5. The software is maintainable 
+
+        - - 4. Project vs Product? (32:20)
+            - - Project
+                - - If a software application is developed for a specific customer 
+                    - - based on the requirement then it is called a Project
+                        - - # Keywords
+                            - - Customer requirements
+                            - - Used only by customer orgnaization
+                - - Most of the time this will be applicable to service based 
+                    - - companies
+                    - - This software is shipped for internal users 
+                        - - e.g
+                            - - employees
+                                - - clerks, managers, finance/admin personel 
+            - - Product 
+                - - If a software application is developed for multiple customers
+                    - - based on market requirments then it is called a Product
+                        - - # Keywords
+                            - - Market requirements
+                            - - Used by multiple market participants
+                - - This will apply to google
+                    - - google is a product based company and they ship software
+                        - - for external users (i.e the market)
+                    - - More examples include
+                        - - Facebook
+                        - - Microsoft 
+                        - - Apple 
+                
+        - - 5. Why do we need Testing? (38:28)
+            - - 1. To release a quality product to the customer
+            - - 2. Ensure software should be bug free
+            - - 3. Should meet customer requirements 
+            - - 4. Should work according to customer expectation
+
+            - - Risks of not properly testing software
+                - - 1. Exessive Expenses
+                - - 2. Delayed Product Launches
+                - - 3. Dissatisfied Users
+                - - 4. Reduced Brand Reputation. 
+
+        - - 6. Error, Bug & Failure (39:40)
+            - - Error
+                - - An error is a mistake made by a human that leads to
+                    - - a discrepancy between the actual and the expected result
+
+                - - Environment
+                    - - Development
+            - - Bug
+                - - A bug is a flaw in a software system that causes the
+                    - - system to behave in an unintended manner. 
+                
+                - - Environment
+                    - - Testing and Production  
+
+            - - Failure
+                - - A failure is the inability of a software system to perform
+                    - - its operations within the specified performance benchmark.
+
+                - - Environment
+                    - - Testing and Production  
+
+        - - 7. Why does the software have bugs? (44:45)
+            - - 1. Miscommunication or no communication
+                - - Developer will implement
+                    - - Tester might expect something else
+                - - Developer might develop outside requirement scope 
+                - - Tester might not test correct scope  
+            - - 2. Software Complexity
+                - - Many stakeholders involved in building the software
+                    - - over a long period  
+            - - 3. Programming Errors 
+            - - 4. Changing Requirements 
+            - - 5. Lack of Skilled Testers 
