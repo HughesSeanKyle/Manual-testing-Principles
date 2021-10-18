@@ -176,3 +176,74 @@
             - - 3. Programming Errors 
             - - 4. Changing Requirements 
             - - 5. Lack of Skilled Testers 
+
+- - # vid 2 
+    - - `Curriculum topics covered in this vid`
+        - - 1. SDLC - Software Development Life Cycle (1:00)
+            - - Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates.
+            - - The  phases in the SDLC can be devided into the following stages:
+                - - 1. Planning
+                    - - Stakeholders 
+                        - - Product/Project managers 
+                        - - Business Analyst
+                    - - Stakeholders gathers required documents from client 
+                        - - Documents include: 
+                            - - 1. Specs for software
+                            - - 2. Expected delivery time 
+                            - - 3. Goals of software
+                            - - 4. Required Budget available to build software
+                            - - 5. Software tailored to exiting and missing 
+                                - - business needs  
+                - - 2. Defining/Analysis
+                    - - Stakeholders 
+                        - - Product/Project managers 
+                        - - Business Analyst
+                - - 3. Designing 
+                    - - Stakeholders 
+                        - - Snr Designer
+                        - - Design Engineer 
+                        - - Testers 
+                    - - The most senior designers in this case will 
+                        - - create a blueprint of the software 
+                        - - The blueprint will consist of 
+                            - - 1. Sitemaps 
+                            - - 2. Userflows 
+                            - - 3. Wireframes 
+                            - - 4. Moodboards 
+                            - - 5. UI and UX research 
+                        - - Testers will be part of user flow & prototype testing 
+                            - - Testing in this phase will focus on 
+                                - - usability as no code has been implemented yet
+                - - 4. Building/Develoment/Implementation
+                    - - Stakeholders 
+                        - - Snr to Jnr Programmers 
+                    - - In this phase, the database admin creates and imports the necessary data into the database. Programming languages are defined by requirements. Developers create the interface as per the coding guidelines and conduct unit testing. This is an important phase for developers. They need to be open-minded and flexible if any changes are introduced by the business analyst.  
+                - - 5. Testing & Integration
+                    - - Stakeholders
+                        - - Testers, QA, Snr QA
+                    - - Testers test the software against the requirements to make sure that the software is solving the needs addressed and outlined during the planning phase. All tests are conducted as functional testing, including unit testing, integration testing, system testing, acceptance testing, and non-functional testing. 
+                - - 6. Deployment & Maintenance
+                    - - In a post-production, live software environment, the system is in maintenance mode. No matter the number of users, the sophistication of the software and rigorous QA testing, issues will occur. That’s the nature of software with managing data, integration, and security, and real world usage. Access to knowledgeable, reliable support resources is essential, as is routine maintenance and staying up to date on upgrades.
+            - - Different companies might have different models that their 
+                - - SDLC will iterate through 
+                - - These models can be 
+                    - - The waterfall, spiral or v-model and will be covered in 
+                        - - depth in later models 
+
+        - - 2. Waterfall Model (9:10)
+            - - Requirement Analysis =>
+                - - System Design       =>
+                    - - Implementation     => 
+                        - - Testing          =>
+                            - - Deployment     =>
+                                - - Maintenance  =>
+            - - This is a much older and traditional model 
+            - - Also known as a linear model 
+
+            - - How is software developed in the waterfall model? 
+                - - 
+        - - 3. Spiral Model 
+        - - 4. V-Model 
+        - - 5. Static Testing & Dynamic Testing
+        - - 6. Verification and Validation 
+        - - 7. White Box & Black Box Testing Methods 
