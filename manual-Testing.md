@@ -232,17 +232,114 @@
 
         - - 2. Waterfall Model (9:10)
             - - Requirement Analysis =>
+                    - - INPUT
+                        - - Customer requirements 
+                    - - OUTPUT 
+                        - - SRS Document 
+                    - - Focuses on documentation 
+                        - - Doing needs analysis on business 
+                        - - 
+                    - - Talk to the client
+                        - - Stakeholders that will collect requirements from client 
+                            - - Project Managers 
+                            - - Product Managers 
+                            - - Business Analysts
+                    - - Once stakeholders have gathered necessary info from client
+                        - - They will prepare the SRS document
+                            - - A Software Requirements Specification (SRS) is a document that describes the nature of a project, software or application. In simple words, SRS document is a manual of a project provided, it is prepared before you kick-start a project/application. This document is also known by the names SRS report, software document. 
+                        - - Once the SRS is completed then the Sytem Design phase 
+                            - - will start
+
                 - - System Design       =>
-                    - - Implementation     => 
+                    - - INPUT 
+                        - - SRS Document
+                    - - OUTPUT 
+                        - - Design Documents 
+                    - - Based on the SRS document the designers will generate a 
+                        - - design for the software 
+                    - - The designers will prepare high and low level models.
+                    - - This will be designed bit by bit as components and then 
+                        - - will finally be integrated into one complete piece of 
+                            - - software
+                    - - Here the designers will complete the design document. 
+                        - - Documents here can include 
+                            - - Userflows and User stories 
+                            - - Wireframes 
+                            - - Low fidelity and High fidelity designs 
+                            - - Prototypes 
+                            - - Design iterations and options 
+                            - - Color schemes and branding document if necessary 
+                     
+                    - - Implementation     =>
+                        - - INPUT 
+                            - - Design Documents 
+                        - - OUTPUT
+                            - - Code/Software 
+                        - - Developers will start developing and implementing 
+                            - - final design from design team. Their duty is to 
+                                - - translate the designs into functional code. 
+
                         - - Testing          =>
+                            - - INPUT
+                                - - Code/Software 
+                            - - OUTPUT 
+                                - - Test plan, Test cases, Test Results
+                            - - Here the testers will test the software. 
+                            - - Testers will look for bugs 
+                            - - Investigate any quality related issues 
+
                             - - Deployment     =>
+                                - - INPUT
+                                    - - SRS Documentation 
+                                    - - Design Document 
+                                    - - Code/Software
+                                    - - Test Documents 
+                                - - OUTPUT
+                                    - - Live Software
+                                    - - Instructions on how software works 
+                                        - - user manual  
+                                - - Software is now deployed to customer environment
+
                                 - - Maintenance  =>
+                                    - - INPUT 
+                                        - - Live Software
+                                    - - OUTPUT 
+                                        - - Ongoing Maintenance 
+                                    - - When client starts using the software the maintenance phase then kicks in 
             - - This is a much older and traditional model 
             - - Also known as a linear model 
 
             - - How is software developed in the waterfall model? 
-                - - 
-        - - 3. Spiral Model 
+                - - In this model every subsequent phase depends on the previous 
+                    - - phase in the model. 
+                - - If one phase is not completed then we cannot continue
+                    - - onto the next phase 
+            - - When to use SDLC Waterfall Model?
+                - - Requirements are not changing frequently
+                - - Application is not complicated and big
+                - - Project is short
+                - - Requirement is clear
+                - - Environment is stable
+                - - Technology and tools used are not dynamic and is stable
+                - - Resources are available and trained
+            - - Advantages and Disadvantages of Waterfall Model
+                - - Advantages 
+                    - - Before the next phase of development, each phase must be completed
+                    - - Suited for smaller projects where requirements are well defined
+                    - - They should perform quality assurance test (Verification and Validation) before completing each stage
+                    - - Elaborate documentation is done at every phase of the software’s development cycle
+                    - - Project is completely dependent on project team with minimum client intervention
+                    - - Any changes in software is made during the process of the development
+                - - Disadvantages 
+                    - - Error can be fixed only during the phase
+                    - - It is not desirable for complex project where requirement changes frequently
+                    - - Testing period comes quite late in the developmental process
+                    - - Documentation occupies a lot of time of developers and testers
+                    - - Clients valuable feedback cannot be included with ongoing development phase
+                    - - Small changes or errors that arise in the completed software may cause a lot of problems
+
+        - - 3. Spiral Model (28:35)
+            - - 
         - - 4. V-Model 
         - - 5. Static Testing & Dynamic Testing
         - - 6. Verification and Validation 
