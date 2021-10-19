@@ -339,8 +339,72 @@
                     - - Small changes or errors that arise in the completed software may cause a lot of problems
 
         - - 3. Spiral Model (28:35)
-            - - 
-        - - 4. V-Model 
+            - - To overcome the drawbacks from the waterfall model the spiral 
+                - - model can be used. 
+            - - Link to spiral model diagram 
+                - - [https://xbsoftware.com/wp-content/uploads/2015/10/spiral-model-sdlc.png]
+                - - More detailed diagram
+                    - - [https://www.scnsoft.com/blog-pictures/custom-software-development/4-spiral.png]
+
+            - - How does the Spiral SDLC model work? 
+                - - The spiral model is similar to the incremental development for a system, with more emphasis placed on risk analysis. The spiral model has four phases: 
+                    - Planning - Requirement Analysis, 
+                    - Risk Analysis & Design,
+                        - -  
+                    - Construct - Development and Testing
+                    - Evaluation. 
+                    
+                    - - A software project repeatedly passes through these phases in iterations (called Spirals in this model)
+                - - Each cycle completion through the phases of production will 
+                    - - produce a software version for the client to evaluate. 
+                        - - If the client is happy then a new cycle in the spiral 
+                            - - will begin. 
+                        
+                    - - The new cycle implementation requirements can come from 
+                        - - The client after evaluation or from 
+                        - - The existing SRS document 
+
+                    - - Each cycle will produce a new version of the software and 
+                        - - this process will be repeated until the software is 
+                            - - built in full. 
+
+            - - Additional info 
+                - - What is Spiral Model?
+                    - - Spiral Model is a risk-driven software development process model. It is a combination of waterfall model and iterative model. Spiral Model helps to adopt software development elements of multiple process models for the software project based on unique risk patterns ensuring efficient development process.
+                - - When to use Spiral Model?
+                    - - A Spiral model in software engineering is used when project is large
+                    - - When releases are required to be frequent, spiral methodology is used
+                    - - When creation of a prototype is applicable
+                    - - When risk and costs evaluation is important
+                    - - Spiral methodology is useful for medium to high-risk projects
+                    - - When requirements are unclear and complex, Spiral model in SDLC is useful
+                    - - When changes may be required at any time
+                    - - When long term project commitment is not feasible due to changes in economic priorities
+                    - - When the software is being built for a product based company
+                        - - meaning many users will use this software. Software 
+                            - - like this has more frequent changes than a project
+                                - - based software (meaning internal company use)
+                        - - Frequent features and updates are made based on 
+                            - - consumer needs and demand 
+                - - Spiral Model Advantages and Disadvantages
+                    - - Advantages 
+                        - - 1. Additional functionality or changes can be done at a later stage
+                        - - 2. Cost estimation becomes easy as the prototype building is done in small fragments
+                        - - 3. Continuous or repeated development helps in risk management
+                        - - 4. Development is fast and features are added in a systematic way in Spiral development
+                        - - 5. There is always a space for customer feedback
+                        - - 6. Testing is conducted in each cycle before moving to next cycle. 
+                        - - 7. Client does not need to wait to the end of the project to provide imput 
+                        - - 8. Requirement changes are allowed after completion of a cycle. 
+                    - - Disadvantages 
+                        - - 1. Risk of not meeting the schedule or budget
+                        - - 2. Spiral development works best for large projects only also demands risk assessment expertise
+                        - - 3. For its smooth operation spiral model protocol needs to be followed strictly
+                        - - 4. Documentation is more as it has intermediate phases
+                        - - 5. Spiral software development is not advisable for smaller project, it might cost them a lot
+                        - - 6. Requirement changes are NOT allowed in the middle of cycle.  
+
+        - - 4. V-Model (48:15)
         - - 5. Static Testing & Dynamic Testing
         - - 6. Verification and Validation 
         - - 7. White Box & Black Box Testing Methods 
